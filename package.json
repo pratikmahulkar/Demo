@@ -25,6 +25,6 @@
 	"csvtojson":"latest",
 	"https":"latest",
 	"fs":"latest",
-	"unzip":"latest",
+	"unzip":"latest"
   }
 }
