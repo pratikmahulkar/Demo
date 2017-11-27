@@ -9,7 +9,8 @@ var app = express();
 app.listen(process.env.PORT || 5000, function () { console.log('Example app listening on port 3000!') });
 
 app.get('/', function (req, res) {
-    res.sendfile('./index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    res.send("hi");
+    //res.sendfile('./index.html'); // load the single view file (angular will handle the page changes on the front-end)
 });
 
 app.get('/app.js', function (req, res) {
