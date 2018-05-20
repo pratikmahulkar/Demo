@@ -444,5 +444,5 @@ app.controller('MainCtrl', ['$scope', '$http', '$timeout', '$interval', 'uiGridC
              $interval.cancel(sec);
          });
      };
-     $scope.refreshData();
+     //$scope.refreshData();
  } ]);
